@@ -1251,7 +1251,7 @@ class LineTooltipItem with EquatableMixin {
   final TextDirection textDirection;
 
   /// Add further style and format to the text of the tooltip
-  final List<TextSpan>? children;
+  final List<InlineSpan>? children;
 
   /// Used for equality check, see [EquatableMixin].
   @override
